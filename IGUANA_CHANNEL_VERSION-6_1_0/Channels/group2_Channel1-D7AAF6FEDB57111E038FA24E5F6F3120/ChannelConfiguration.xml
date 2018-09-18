@@ -1,0 +1,27 @@
+<channel
+   name="group2_Channel1"
+   guid="D7AAF6FEDB57111E038FA24E5F6F3120"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="group2_Channel1-From-OHe5brNgK6s2Yi"
+      commit_id="e40c8f4a588590ca6c9b7aa3f22726b8ef170b9b"
+      commit_comment="Import Translators: importing 2"
+      poll_time="15000">
+   </from_mapper>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>

@@ -1,0 +1,19 @@
+<channel
+   name="group2_Channel2"
+   guid="0AE67EEF0468BB8294607330BE454A8F"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="group2_Channel2-To-m1aQBLALGxIOZ4"
+      commit_id="1599fca17517a5df5083888108916a22e990d2a4"
+      commit_comment="initial commit">
+      <dequeue_list>
+         <dequeue
+            source_name="group2_Channel1"
+            dequeue_guid="77F3C40E21723CCA18D116CFA89B04CA"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+</channel>
